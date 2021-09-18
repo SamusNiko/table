@@ -38,7 +38,6 @@
     
     .table {
         margin-bottom: 70px;
-        padding-bottom: 30px;
 
         width: 100%;
         background-color: #ffffff;
@@ -104,6 +103,35 @@
             .table__row:hover {
                 background-color: #F4F2FF;
                 cursor: pointer;
+            }
+        }
+
+        .table__footer {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            .pagination__list {
+                display: flex;
+                flex-direction: row;
+                margin-right: 30px;
+
+                .pagination__item {
+                    min-width: 25px;
+                    height: 25px;
+                    margin-right: 10px;
+                    padding: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px gray solid;
+                    cursor: pointer;
+                }
+
+                .pagination__item:hover {
+                    background-color: #6E6893;
+                }
             }
         }
     }

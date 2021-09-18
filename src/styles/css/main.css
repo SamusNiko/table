@@ -392,6 +392,7 @@ textarea {
   margin: 0 auto;
   max-width: 1400px;
   height: 100%;
+  padding-bottom: 0px;
 }
 
 .footer .wrap {
